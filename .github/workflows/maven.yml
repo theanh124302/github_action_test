@@ -34,4 +34,4 @@ jobs:
     - name: Build image
       run: docker build -t hoangtheanh2002hhbg/cloudcomputing .
     - name: Publish image
-      run: docker image push hoangtheanh2002hhbg/cloudcomputing
+      run: docker push hoangtheanh2002hhbg/cloudcomputing
