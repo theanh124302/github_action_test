@@ -18,4 +18,8 @@ public class ProductController {
         List<Product> products = productService.getAll();
         return ResponseEntity.ok().header("sort", "as").body(products);
     }
+    @GetMapping("/")
+    public String test(){
+        return "Test";
+    }
 }
