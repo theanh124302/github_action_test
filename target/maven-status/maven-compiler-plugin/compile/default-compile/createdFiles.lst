@@ -1,0 +1,6 @@
+com\example\cloudcomputing\repository\ProductRepo.class
+com\example\cloudcomputing\service\ProductService.class
+com\example\cloudcomputing\CloudComputingApplication.class
+com\example\cloudcomputing\dto\Product.class
+com\example\cloudcomputing\controller\ProductController.class
+com\example\cloudcomputing\config\SecurityConfig.class
