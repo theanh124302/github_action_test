@@ -35,3 +35,15 @@ jobs:
       run: docker build -t hoangtheanh2002hhbg/cloudcomputing .
     - name: Publish image
       run: docker push hoangtheanh2002hhbg/cloudcomputing
+
+  deploy:
+
+    runs-on: theanh124
+
+    steps:
+      - name: Pull image
+        run: docker pull hoangtheanh2002hhbg/cloudcomputing
+      - name: Remove old container
+        run: docker rm -f cloudcomputing-container
+      - name: Run image
+        run: docker run -d -p 8080:8080 --name cloudcomputing-container hoangtheanh2002hhbg/cloudcomputing
