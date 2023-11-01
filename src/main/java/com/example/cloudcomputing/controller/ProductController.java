@@ -19,8 +19,8 @@ public class ProductController {
         return ResponseEntity.ok().header("sort", "as").body(products);
     }
 
-    @GetMapping("/")
+    @GetMapping("/DuyTung")
     public String test(){
-        return "Test CICD";
+        return "Quỷ Sex";
     }
 }
