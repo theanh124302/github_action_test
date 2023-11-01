@@ -7,7 +7,6 @@
 # documentation.
 
 name: Java CI with Maven
-
 on:
   push:
     branches: [ "main" ]
@@ -37,9 +36,8 @@ jobs:
       run: docker push hoangtheanh2002hhbg/cloudcomputing
 
   deploy:
-
+    needs: build
     runs-on: theanh124
-
     steps:
       - name: Pull image
         run: sudo docker pull hoangtheanh2002hhbg/cloudcomputing
