@@ -45,3 +45,5 @@ jobs:
         run: sudo docker rm -f cloudcomputing-container
       - name: Run image
         run: sudo docker run -d -p 80:8080 --name cloudcomputing-container -t hoangtheanh2002hhbg/cloudcomputing
+      - name: Logs
+        run: sudo docker logs cloudcomputing-container
