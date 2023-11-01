@@ -20,6 +20,6 @@ public class ProductController {
     }
     @GetMapping("/")
     public String test(){
-        return "Test";
+        return "Test CICD";
     }
 }
