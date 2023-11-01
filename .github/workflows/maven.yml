@@ -42,8 +42,8 @@ jobs:
 
     steps:
       - name: Pull image
-        run: docker pull hoangtheanh2002hhbg/cloudcomputing
+        run: sudo docker pull hoangtheanh2002hhbg/cloudcomputing
       - name: Remove old container
-        run: docker rm -f cloudcomputing-container
+        run: sudo docker rm -f cloudcomputing-container
       - name: Run image
-        run: docker run -d -p 8080:8080 --name cloudcomputing-container hoangtheanh2002hhbg/cloudcomputing
+        run: sudo docker run -d -p 8080:8080 --name cloudcomputing-container hoangtheanh2002hhbg/cloudcomputing
