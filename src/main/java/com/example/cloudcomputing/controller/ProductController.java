@@ -23,4 +23,11 @@ public class ProductController {
     public String test(){
         return "Quỷ Sex";
     }
+
+
+    @GetMapping("/")
+    public String oke(){
+        return "Web của Thế Anh";
+    }
+
 }
