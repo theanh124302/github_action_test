@@ -27,7 +27,7 @@ public class ProductController {
 
     @GetMapping("/")
     public String oke(){
-        return "Web của Thế Anh";
+        return "Web của Thế Anh!";
     }
 
 }
