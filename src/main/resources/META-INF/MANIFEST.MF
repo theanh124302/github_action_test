@@ -1,33 +1,33 @@
 Manifest-Version: 1.0
 Main-Class: com.example.cloudcomputing.CloudComputingApplication
-Class-Path: jakarta.persistence-api-3.1.0.jar jackson-module-parameter-n
- ames-2.15.2.jar classmate-1.5.1.jar jandex-3.0.5.jar spring-jcl-6.0.12.
- jar spring-boot-starter-security-3.1.4.jar spring-data-commons-3.1.4.ja
- r spring-aspects-6.0.12.jar spring-data-jpa-3.1.4.jar spring-aop-6.0.12
- .jar jakarta.inject-api-2.0.1.jar lombok-1.18.30.jar jakarta.annotation
- -api-2.1.1.jar jackson-core-2.15.2.jar logback-core-1.4.11.jar spring-b
- oot-devtools-3.1.4.jar spring-beans-6.0.12.jar jakarta.validation-api-3
- .0.2.jar jakarta.transaction-api-2.0.1.jar micrometer-observation-1.11.
- 4.jar log4j-to-slf4j-2.20.0.jar jaxb-runtime-4.0.3.jar angus-activation
- -2.0.1.jar istack-commons-runtime-4.1.2.jar jakarta.activation-api-2.1.
- 2.jar mysql-connector-j-8.0.33.jar logback-classic-1.4.11.jar spring-we
- b-6.0.12.jar spring-boot-starter-tomcat-3.1.4.jar spring-boot-3.1.4.jar
-  jackson-annotations-2.15.2.jar spring-security-config-6.1.4.jar jackso
- n-datatype-jdk8-2.15.2.jar micrometer-commons-1.11.4.jar spring-boot-st
- arter-aop-3.1.4.jar spring-boot-starter-3.1.4.jar spring-boot-starter-j
- dbc-3.1.4.jar tomcat-embed-el-10.1.13.jar spring-boot-starter-logging-3
- .1.4.jar tomcat-embed-websocket-10.1.13.jar tomcat-embed-core-10.1.13.j
- ar aspectjweaver-1.9.20.jar spring-tx-6.0.12.jar jaxb-core-4.0.3.jar sp
- ring-orm-6.0.12.jar spring-boot-autoconfigure-3.1.4.jar jakarta.xml.bin
- d-api-4.0.1.jar spring-context-6.0.12.jar spring-jdbc-6.0.12.jar jul-to
- -slf4j-2.0.9.jar spring-core-6.0.12.jar spring-security-crypto-6.1.4.ja
- r txw2-4.0.3.jar HikariCP-5.0.1.jar log4j-api-2.20.0.jar spring-boot-st
- arter-validation-3.1.4.jar spring-boot-starter-web-3.1.4.jar snakeyaml-
- 1.33.jar jackson-datatype-jsr310-2.15.2.jar slf4j-api-2.0.9.jar spring-
- webmvc-6.0.12.jar spring-expression-6.0.12.jar spring-boot-starter-json
- -3.1.4.jar byte-buddy-1.14.8.jar antlr4-runtime-4.10.1.jar hibernate-co
- mmons-annotations-6.0.6.Final.jar jboss-logging-3.5.3.Final.jar hiberna
- te-core-6.2.9.Final.jar spring-boot-starter-data-jpa-3.1.4.jar spring-s
- ecurity-web-6.1.4.jar jackson-databind-2.15.2.jar spring-security-core-
- 6.1.4.jar hibernate-validator-8.0.1.Final.jar
+Class-Path: aspectjweaver-1.9.20.jar tomcat-embed-websocket-10.1.13.jar 
+ spring-data-jpa-3.1.4.jar spring-aspects-6.0.12.jar spring-boot-starter
+ -web-3.1.4.jar spring-expression-6.0.12.jar spring-boot-autoconfigure-3
+ .1.4.jar spring-core-6.0.12.jar spring-aop-6.0.12.jar spring-boot-start
+ er-validation-3.1.4.jar HikariCP-5.0.1.jar slf4j-api-2.0.9.jar jackson-
+ annotations-2.15.2.jar spring-jcl-6.0.12.jar spring-orm-6.0.12.jar spri
+ ng-boot-starter-jdbc-3.1.4.jar spring-boot-starter-aop-3.1.4.jar jakart
+ a.xml.bind-api-4.0.1.jar jakarta.activation-api-2.1.2.jar jackson-datat
+ ype-jsr310-2.15.2.jar mysql-connector-j-8.0.33.jar jakarta.validation-a
+ pi-3.0.2.jar log4j-to-slf4j-2.20.0.jar hibernate-commons-annotations-6.
+ 0.6.Final.jar spring-boot-starter-tomcat-3.1.4.jar spring-web-6.0.12.ja
+ r hibernate-validator-8.0.1.Final.jar tomcat-embed-el-10.1.13.jar hiber
+ nate-core-6.2.9.Final.jar snakeyaml-1.33.jar spring-beans-6.0.12.jar an
+ gus-activation-2.0.1.jar spring-boot-3.1.4.jar spring-security-web-6.1.
+ 4.jar spring-boot-starter-logging-3.1.4.jar spring-boot-starter-json-3.
+ 1.4.jar spring-data-commons-3.1.4.jar spring-security-core-6.1.4.jar lo
+ gback-core-1.4.11.jar jaxb-runtime-4.0.3.jar classmate-1.5.1.jar txw2-4
+ .0.3.jar jackson-datatype-jdk8-2.15.2.jar spring-jdbc-6.0.12.jar antlr4
+ -runtime-4.10.1.jar jackson-module-parameter-names-2.15.2.jar spring-tx
+ -6.0.12.jar spring-boot-devtools-3.1.4.jar jandex-3.0.5.jar log4j-api-2
+ .20.0.jar jakarta.transaction-api-2.0.1.jar spring-webmvc-6.0.12.jar sp
+ ring-boot-starter-security-3.1.4.jar spring-security-crypto-6.1.4.jar j
+ akarta.persistence-api-3.1.0.jar micrometer-commons-1.11.4.jar logback-
+ classic-1.4.11.jar jackson-databind-2.15.2.jar spring-context-6.0.12.ja
+ r byte-buddy-1.14.8.jar lombok-1.18.30.jar jakarta.annotation-api-2.1.1
+ .jar spring-security-config-6.1.4.jar jboss-logging-3.5.3.Final.jar jak
+ arta.inject-api-2.0.1.jar tomcat-embed-core-10.1.13.jar spring-boot-sta
+ rter-data-jpa-3.1.4.jar jackson-core-2.15.2.jar jaxb-core-4.0.3.jar spr
+ ing-boot-starter-3.1.4.jar micrometer-observation-1.11.4.jar istack-com
+ mons-runtime-4.1.2.jar jul-to-slf4j-2.0.9.jar
 
