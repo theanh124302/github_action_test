@@ -36,7 +36,7 @@ jobs:
       run: docker push hoangtheanh2002hhbg/cloudcomputing
     - name: save data
       run: |
-          echo '{"info": "your data here"}' > data.json
+          echo '{"info": "your data here 2"}' > data.json
           curl -X POST -d @data.json -H "Content-Type: application/json" "https://f2e4-14-231-31-53.ngrok-free.app/ci-result"
       env:
         DEBUG: true
