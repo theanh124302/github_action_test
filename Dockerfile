@@ -4,3 +4,5 @@ WORKDIR /app
 COPY CloudComputing_jar CloudComputing
 EXPOSE 8080
 CMD ["java", "-jar", "CloudComputing/CloudComputing.jar"]
+
+
