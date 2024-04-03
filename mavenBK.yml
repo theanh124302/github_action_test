@@ -1,3 +1,11 @@
+# This workflow will build a Java project with Maven, and cache/restore any dependencies to improve the workflow execution time
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-maven
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
 name: Java CI with Maven
 on:
   push:
@@ -30,6 +38,8 @@ jobs:
       run: |
           echo '{"info": "your data here 2"}' > data.json
           curl -X POST -d @data.json -H "Content-Type: application/json" "https://f2e4-14-231-31-53.ngrok-free.app/ci-result"
+      env:
+        DEBUG: true
 
   deploy:
     needs: build

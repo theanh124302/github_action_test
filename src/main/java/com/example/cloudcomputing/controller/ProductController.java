@@ -21,7 +21,7 @@ public class ProductController {
 
     @GetMapping("/DuyTung")
     public String test(){
-        return "Quỷ Sex";
+        return "test";
     }
 
     @GetMapping("/")
